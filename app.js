@@ -8,3 +8,7 @@ app.get('/', (req, res) => {
     })
 
 })
+
+app.listen(process.env.PORT, () => {
+    console.log('listen on PORT', process.env.PORT)
+})
